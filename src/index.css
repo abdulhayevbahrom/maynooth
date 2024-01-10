@@ -5,3 +5,14 @@
   font-family: sans-serif;
   letter-spacing: 1px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  max-width: 1440px;
+  display: flex;
+  width: 1440px !important;
+}
