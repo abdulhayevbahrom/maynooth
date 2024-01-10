@@ -1,9 +1,10 @@
 import React from "react";
+import Cart from "./components/cart/Cart";
 
 function App() {
   return (
-    <div>
-      <h1>App.js</h1>
+    <div className="App">
+      <Cart/>
     </div>
   );
 }
