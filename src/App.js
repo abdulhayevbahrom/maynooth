@@ -1,11 +1,16 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Catalog } from "./Components/Catalog/Catalog";
+import Cart from "./Components/cart/Cart";
 
 function App() {
   return (
-    <div>
-      <h1>App.js</h1>
-      <h1>Shahzodbek</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
