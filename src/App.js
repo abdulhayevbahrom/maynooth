@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import Products from "./Components/Products/Products";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      <h1>App.js</h1>
+    <Header/>
+    <Banner/>
+    <Products/>
+    <Footer/>
     </div>
   );
 }
