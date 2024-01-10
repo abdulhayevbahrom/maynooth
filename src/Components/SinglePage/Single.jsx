@@ -15,6 +15,14 @@ function SinglePage() {
                 <img className="single_img2" src="https://people.com/thmb/qShELzDCwh3pRL74T2vWBWKnO5w=/fit-in/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Wayfair-Furniture-40968b3f17f64d6184795368667c0f6d.jpg" alt="" />
             </div>
             </div>
+            <div className="Single_description">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Optio rerum voluptatibus, architecto repellendus nesciunt 
+                        repellat magnam. Tenetur blanditiis dolores illo?</p>
+                    <h1>$250</h1>
+                </div>
+            </div>
            </div>
         </div>
     );
