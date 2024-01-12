@@ -11,8 +11,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
-  )}
+  );
+}
 
 export default App;
