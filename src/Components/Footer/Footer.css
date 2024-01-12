@@ -1,0 +1,24 @@
+.footer_black > ul{
+     display: flex;
+     flex-direction: row;
+     gap: 60px;
+     font-family: monospace;
+     list-style: none;
+}
+
+li{
+     font-family: monospace;
+}
+
+.footer_black {
+     display: flex;
+     flex-direction: row;
+     background-color: black;
+     color: white;
+     gap: 100px;
+     text-align: center;
+     font-family: monospace;
+     padding-top: 2%;
+     padding-left: 20%;
+     padding-bottom: 2%;
+}
