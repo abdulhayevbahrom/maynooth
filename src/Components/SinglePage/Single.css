@@ -39,6 +39,9 @@
 .Single_description1 {
     display: flex;  
     width: 400px;
+    padding: 5% 3% 5% 3%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .Single_description2 {
@@ -61,6 +64,7 @@
     border-radius: 3px;
     color: white;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .Single_description2 button:hover{
@@ -71,6 +75,9 @@
 .Single_description3 {
     margin-top: 30px;
     width: 400px;
+    padding: 9% 3%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .Similar_product {
@@ -92,6 +99,7 @@
 
 .Similar_product_item img {
     width: 278px;
+    border-radius: 5px;
 }
 
 .similar_button {
@@ -103,4 +111,10 @@
     background-color: green;
     border-radius: 4px;
     margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.similar_button:hover {
+    background-color: white;
+    color: green;
 }

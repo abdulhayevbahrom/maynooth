@@ -10,8 +10,7 @@ function App() {
       <Routes>
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/SinglePage" element={<SinglePage />} />
-        
+        <Route path="/catalog/SinglePage" element={<SinglePage />} />
       </Routes>
     </BrowserRouter>
   );

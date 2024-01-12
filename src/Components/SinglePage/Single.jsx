@@ -24,8 +24,7 @@ export function SinglePage() {
                         Optio rerum voluptatibus, architecto repellendus nesciunt 
                         repellat magnam. Tenetur blanditiis dolores illo?</p>
                     <h1>$250</h1>
-                </div>
-                <p>_________________________________________</p>
+                </div>  
                 <div className="Single_description2">
                 <select name="" id="">
                     <option value="number">1</option>
@@ -38,7 +37,6 @@ export function SinglePage() {
                 </select>
                     <button>Add to Cart</button>
                 </div>
-                <p>_________________________________________</p>
                 <div className="Single_description3">
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -53,7 +51,6 @@ export function SinglePage() {
                         sed nostrum fugit, non cumque magnam voluptates quod. Ab veritatis sunt 
                         excepturi, incidunt accusantium earum ipsum nobis nesciunt architecto?
                     </p>
-                    <p>_________________________________________</p>
                 </div>
             </div>
            </div>
