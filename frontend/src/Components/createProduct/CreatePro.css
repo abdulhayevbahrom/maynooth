@@ -1,0 +1,32 @@
+.createProduct {
+  width: 100%;
+  min-height: 100vh;
+  background-color: pink;
+  padding-top: 50px;
+}
+
+.createProduct form {
+  width: 350px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.createProduct form h3 {
+  text-align: center;
+}
+
+.createProduct form label {
+  font-size: 13px;
+}
+
+.createProduct form :where(input, select) {
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  position: relative;
+}
